@@ -50,3 +50,35 @@ div>img{
     margin: 2em 1.2em;
 }
 
+
+footer{
+    height: 10vh ;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    color: hsl(220, 15%, 55%);
+}
+
+a{
+    color:hsl(218, 44%, 22%);
+}
+
+@media(min-width: 800px){
+    body{
+        height: 100vh;
+    }
+    main{
+        width: 25vw;
+        margin: 10px;
+    }
+    .qrcode{
+        padding: 12px 0;
+    }
+    div>img{
+        max-width: 25vw;
+    }
+
+}
